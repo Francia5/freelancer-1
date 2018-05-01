@@ -1,1 +1,133 @@
-<!-- Agrega aquí la estructura HTML de tu sitio web -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Freelance</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav><!-- Barra de navegación del usuario -->
+        <div class="title">
+            <a href="#">START BOOTSTRAP</a>
+        </div>
+        <div class="menu">
+          <a href="#">PORTFOLIO</a>
+          <a href="#">ABOUT</a>
+          <a href="#">CONTACT</a>
+        </div>
+    </nav>
+        <section id="seccion-1"> <!-- Inicio primera sección de la página -->
+            <header class="profile">
+                <img src="assets/images/profile.png" alt="imagen-perfil">
+                <h1 id="title-profile">START BOOTSTRAP</h1>
+                <hr>  <i class="fas fa-star"></i>  <hr>
+                <p>Web Developer - Graphic Artist - User Experience Designer</p>
+            </header>
+        </section>
+        <section id="portfolio"> <!-- Inicio sección Portafolio -->
+            <h1>PORTFOLIO</h1>
+            <hr class="blue-line">  <i class="fas fa-star"></i>  <hr class="blue-line">
+            <section class="images-colum">
+                <article>
+                    <div class="images-portfolio">
+                        <img src="assets/images/portfolio/cabin.png" alt="">
+                    </div>
+                </article>
+                 <article>
+                    <div class="images-portfolio">
+                        <img src="assets/images/portfolio/cake.png" alt="">
+                    </div>
+                </article>
+                    <article>
+                        <div class="images-portfolio">
+                            <img src="assets/images/portfolio/circus.png" alt="">
+                        </div>
+                    </article>
+                    <article>
+                        <div class="images-portfolio">
+                            <img src="assets/images/portfolio/game.png" alt="">
+                        </div>
+                    </article>
+                    <article>
+                        <div class="images-portfolio">
+                            <img src="assets/images/portfolio/safe.png" alt="">
+                        </div>
+                    </article>
+                    <article>
+                        <div class="images-portfolio">
+                            <img src="assets/images/portfolio/submarine.png" alt="">
+                        </div>
+                    </article>
+            </section>
+        </section>
+        <section id="about"> <!-- Inicio de sección About -->
+            <h1>ABOUT</h1>
+            <hr>  <i class="fas fa-star"></i>  <hr>
+            <div class="container">
+                <div class="text-left"><p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p></div>
+                <div class="text-right"><p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p></div>
+            </div>
+            <div>
+                <a class="download" href="#"><i class="fas fa-download"> Download Now!</i></a>
+            </div>
+            </section>
+        <section id="contact"> <!-- Inicio de sección Contact -->
+            <h1> CONTACT ME </h1>
+            <hr class="blue-line">  <i class="fas fa-star"></i>  <hr class="blue-line">
+           <div class="container-contact">
+            <form action="/my-handling-form-page" method="post"> <!-- Formulario para completar datos por el usuario -->
+                <div>
+                  <p>Name</p>
+                  <label for="name"></label>
+                  <input type="text" id="name" />
+               </div>
+               <div>
+                  <p>Email Address</p>
+                  <label for="mail"></label>
+                  <input type="email" id="mail" />
+               </div>
+               <div>
+                  <p>Phone Number</p>
+                  <label for="phone"></label>
+                  <input type="number" id="number" />
+               </div>
+               <div>
+                  <p>Message</p>
+                  <label for="msg"></label>
+                  <textarea id="msg"></textarea>
+               </div>
+               <div class="button">
+                  <button type="submit">Send</button>
+               </div>
+             </form>
+            </div> 
+        </section>
+        <footer> <!-- Pie de página con la información de redes sociales y contacto -->
+            <div class="location-footer">
+                <h1 class="size-footer">LOCATION</h1>
+                <P>2215 John Daniel Drive</p> 
+                <p>Clark, MO 65243</p>
+            </div>
+            <div class="icons">
+                <h1 class="size-footer">AROUND THE WEB</h1>
+                <div>
+                    <p class="icons-radius"><i class="fab fa-facebook-f"></i></p>
+                    <p class="icons-radius"><i class="fab fa-google-plus-g"></i></p>
+                    <p class="icons-radius"><i class="fab fa-twitter"></i></p>
+                    <p class="icons-radius"><i class="fab fa-linkedin-in"></i></p>
+                    <p class="icons-radius"><i class="fal fa-basketball-ball"></i></p>
+                </div>
+            </div>
+            <div class="about-footer">
+                <h1 class="size-footer">ABOUT FREELANCER</h1>
+                <P>Freelance is a free to use, open source</p>
+                <p>Bootstrap theme created by Start</p>
+                <p>bootstrap.</p>
+            </div>
+            <p class="copyright">Copyright © Your Website 2018</p>
+        </footer>
+</body>
+</html>
